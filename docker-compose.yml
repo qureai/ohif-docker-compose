@@ -2,6 +2,8 @@ version: "3"
 services:
   pacs:
     image: jodogne/orthanc-plugins
+    ports:
+      - 8042:8042
     volumes:
       - ./orthanc.json:/etc/orthanc/orthanc.json:ro
       - orthanc_db:/var/lib/orthanc/db/

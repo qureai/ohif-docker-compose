@@ -14,6 +14,17 @@ Open http://localhost:3000 in your browser and you should see this:
 
 ![Ohif viewer](./ohif.png)
 
+
+## Import Dicom files
+
+
+```
+pip install httplib2
+python ImportDicomFiles.py localhost 8042 /path/to/input/dir
+```
+
+TODO: run import inside docker
+
 ## Stop the service
 
 ```
