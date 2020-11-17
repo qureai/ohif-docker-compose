@@ -17,6 +17,7 @@ services:
     volumes:
       - ./nginx_ohif.conf:/etc/nginx/conf.d/default.conf:ro
       - ./ohif.js:/usr/share/nginx/html/app-config.js:ro
+      - ./qurelogo.png:/usr/share/nginx/html/qurelogo.png:ro
   
 volumes: 
   orthanc_db:
