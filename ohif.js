@@ -29,7 +29,7 @@ window.config = {
         href: '/',
         style: {
           display: 'block',
-          background: 'url(/qurelogo.png)',
+          background: 'url(/logo.png)',
           backgroundSize: 'contain',
           backgroundRepeat: 'no-repeat',
           width: '200px',
