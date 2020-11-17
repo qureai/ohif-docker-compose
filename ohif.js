@@ -20,7 +20,7 @@ window.config = {
     ],
   },
   whiteLabeling: {
-    /* Optional: Should return a React component to be rendered in the "Logo" section of the application's Top Navigation bar */
+    /* Used to replace the default Logo */
     createLogoComponentFn: function(React) {
       return React.createElement('a', {
         target: '_self',
