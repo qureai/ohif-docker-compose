@@ -135,6 +135,10 @@ window.config = {
     },
   ],
   cornerstoneExtensionConfig: {},
+
+  // studyListFunctionsEnabled is set to true to enable DICOM uploading
+  studyListFunctionsEnabled: true
+  
   // Following property limits number of simultaneous series metadata requests.
   // For http/1.x-only servers, set this to 5 or less to improve
   //  on first meaningful display in viewer
