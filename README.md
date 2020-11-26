@@ -25,6 +25,10 @@ python ImportDicomFiles.py localhost 8042 /path/to/input/dir
 
 TODO: run import inside docker
 
+You can also upload Dicom files using OHIF itself.
+
+![Ohif upload](./uploading.gif)
+
 ## Stop the service
 
 ```
