@@ -5,7 +5,7 @@ Docker compose for OHIF dicom viewer. You can deploy a PACS and fully featured d
 ## Run OHIF and Orthanc
 
 ```
-git clone https://github.com/chsasank/ohif-docker-compose
+git clone https://github.com/qureai/ohif-docker-compose
 cd ohif-docker-compose
 docker-compose up -d
 ```
